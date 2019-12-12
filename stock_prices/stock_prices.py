@@ -16,6 +16,15 @@ def find_max_profit(list):
 
 print(find_max_profit([1050, 270, 1540, 3800, 2]))
 
+# ///////////////////////////
+# Alternate Solution:
+
+# def find_max_profit(prices):
+#   highest_price = max(prices)
+#   new_list = prices[0:prices.index(highest_price)]
+#   lowest_before = min(new_list)
+#   return highest_price - lowest_before
+# print(find_max_profit([1050, 270, 1540, 3800, 2]))
 
 # if __name__ == '__main__':
 #     # This is just some code to accept inputs from the command line
@@ -25,7 +34,4 @@ print(find_max_profit([1050, 270, 1540, 3800, 2]))
 #
 #     print("A profit of ${profit} can be made from the stock prices {prices}.".format(
 #         profit=find_max_profit(args.integers), prices=args.integers))
-
-
-
 
