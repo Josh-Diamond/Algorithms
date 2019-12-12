@@ -21,7 +21,7 @@ def recipe_batches(recipe, ingredients):
 # ing_2 = {'milk': 1288, 'flour': 12, 'sugar': 95}
 # rec_3 = {'milk': 100, 'flour': 4, 'sugar': 10}
 # ing_3 = {'milk': 1, 'flour': 12, 'sugar': 95}
-# 
+#
 # print(recipe_batches(rec_1, ing_1))
 # print(recipe_batches(rec_2, ing_2))
 # print(recipe_batches(rec_3, ing_3))
