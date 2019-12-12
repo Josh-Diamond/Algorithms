@@ -15,16 +15,16 @@ def recipe_batches(recipe, ingredients):
         return 0
 
 # Test Cases
-rec_1 = {'milk': 100, 'flour': 4, 'sugar': 10}
-ing_1 = {'milk': 1288, 'flour': 9, 'sugar': 95}
-rec_2 = {'milk': 100, 'flour': 4, 'sugar': 10}
-ing_2 = {'milk': 1288, 'flour': 12, 'sugar': 95}
-rec_3 = {'milk': 100, 'flour': 4, 'sugar': 10}
-ing_3 = {'milk': 1, 'flour': 12, 'sugar': 95}
-
-print(recipe_batches(rec_1, ing_1))
-print(recipe_batches(rec_2, ing_2))
-print(recipe_batches(rec_3, ing_3))
+# rec_1 = {'milk': 100, 'flour': 4, 'sugar': 10}
+# ing_1 = {'milk': 1288, 'flour': 9, 'sugar': 95}
+# rec_2 = {'milk': 100, 'flour': 4, 'sugar': 10}
+# ing_2 = {'milk': 1288, 'flour': 12, 'sugar': 95}
+# rec_3 = {'milk': 100, 'flour': 4, 'sugar': 10}
+# ing_3 = {'milk': 1, 'flour': 12, 'sugar': 95}
+# 
+# print(recipe_batches(rec_1, ing_1))
+# print(recipe_batches(rec_2, ing_2))
+# print(recipe_batches(rec_3, ing_3))
 
 # if __name__ == '__main__':
 #   # Change the entries of these dictionaries to test
